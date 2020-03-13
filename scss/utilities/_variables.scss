@@ -1,0 +1,40 @@
+/* ============================================= */
+/*              Color Names                      */
+/* ============================================= */
+
+$grey           : #777;
+$turquoise      : #58e1c1;
+$maya-blue      : #51ddfc;
+$lilac-bush     : #927bc1;
+$coral          : #fd7856;
+$wisteria       : #deb2ee;
+$electric-blue  : #7ee6fd;
+$granny-smith   : #88d9a0;
+$boston-blue    : #4da2bb;
+$wax-flower     : #ec9fa3;
+$mona-lisa      : #fd9f85;
+$froly          : #e4757a;
+$emerald        : #63cc82;
+$maya-blue      : #51ddfc;
+$turquoise-blue : #80e8d1;
+$white          : #fff;
+$very-light-grey: #ccc;
+
+/* ============================================= */
+/*              Color Usage                      */
+/* ============================================= */
+
+$color-primary   : $turquoise;
+$color-secondary : $grey;
+$color-default   : $maya-blue;
+$color-success   : $emerald;
+$color-error     : $froly;
+$color-warning   : $coral;
+$color-info      : $lilac-bush;
+
+/* ============================================= */
+/*              Media Query Breakpoint                      */
+/* ============================================= */
+
+
+$break  : 768px ;
