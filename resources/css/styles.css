@@ -2,8 +2,7 @@
 /* ============================================= */
 /*              Base styles                      */
 /* ============================================= */
-
-/* {
+ {
   font-family: 'Lato', sans-serif;
   color: #777;
   box-sizing: border-box;
@@ -22,7 +21,6 @@ a {
 /* ============================================= */
 /*              Typography                       */
 /* ============================================= */
-/*
 .headline-primary {
   color: #58e1c1;
   margin-left: 10px;
@@ -47,13 +45,10 @@ a {
   border-left: 8px solid #58e1c1;
   border-radius: 5px;
 }
-//Commented out due to being added to _typography.scss
-*/
 
 /* ============================================= */
 /*              Grid System                      */
 /* ============================================= */
-/*
 .container {
   padding: 0 10px;
 }
@@ -123,12 +118,11 @@ a {
 .card {
   flex-basis: 100%;
 }
-*/
-/*              Added to grid partial                       */
+
 /* ============================================= */
 /*              Navigation                       */
 /* ============================================= */
-/*
+
 .nav {
   padding-left: 0;
   flex-basis: 100%;
@@ -151,12 +145,11 @@ a {
   color: #fff;
   background-color: #58e1c1;
 }
-*/
 
 /* ============================================= */
 /*              Buttons                          */
 /* ============================================= */
-/*
+
 .btn {
   margin-top: 15px;
   width: 100%;
@@ -191,7 +184,7 @@ a {
 /* ============================================= */
 /*              Forms                            */
 /* ============================================= */
-/*
+
 .form {
   flex-basis: 100%;
 }
@@ -249,20 +242,20 @@ a {
 /*              Media Queries                    */
 /* ============================================= */
 @media (min-width: 768px) {
-/*
+
 .container {
   max-width: 1400px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-*/
+
 .centered {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-/*
+
 .row {
   flex-direction: row;
 }
@@ -273,7 +266,7 @@ a {
   margin-top: 0;
   align-items: center;
 }
-*/
+
 [class^=col] + [class^=col] {
   margin-left: 10px;
 }
@@ -325,7 +318,7 @@ a {
 .col-12 {
   flex-basis: 100%;
 }
-/*
+
 .nav {
   flex-direction: row;
   justify-content: flex-end;
@@ -343,10 +336,11 @@ a {
 .btn + .btn {
   margin-left: 10px;
 }
-*/
+
 .logo {
   margin-left: initial;
   margin-right: initial;
 }
 
 }
+    
